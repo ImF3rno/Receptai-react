@@ -1,0 +1,44 @@
+.card {
+	max-width: 375px;
+	border: none;
+	border-radius: 20px;
+
+	&__info {
+		background: rgba(255, 255, 255, 0.80);
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		bottom: 0;
+		gap: 30px;
+
+		img {
+			margin-right: 10px;
+		}
+
+		&__text {
+			color: #046E1B;
+			font-size: 16px;
+			font-weight: 500;
+		}
+	}
+
+	&__header {
+		display: block;
+		color: black;
+		font-size: 32px;
+		font-weight: 600;
+		margin: 0;
+	}
+
+	&__read-more {
+		color: #F79F1A;
+		font-size: 16px;
+		text-decoration-line: underline;
+	}
+}
+
+.card-img,
+.card-img-top {
+	border-radius: 20px 20px 0px 0px;
+}

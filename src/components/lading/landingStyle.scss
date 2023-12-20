@@ -1,0 +1,61 @@
+.landing{
+    display: flex;
+    align-items: center;
+}
+
+.landing-left{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.Logo{
+    width: 41.125rem;
+    height: 36.875rem;
+    transform: rotate(-19.762deg);
+    flex-shrink: 0;
+}
+
+.landing-header{
+    width: 38.125rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem;
+}
+
+.landing-text{
+    width: 26.5rem;
+    color: #7F7D7D;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.explore-button{
+    display: flex;
+    width: 15.5625rem;
+    padding: 1.875rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.25rem;
+    background: #F79F1A;
+}
+
+.explore-button-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.03125rem;
+}

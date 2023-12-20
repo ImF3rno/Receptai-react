@@ -1,0 +1,30 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.recipes {
+	margin-top: 100px;
+
+	&__title {
+		margin-bottom: 70px;
+
+		@include media-breakpoint-down(md) {
+			flex-flow: column;
+		}
+	}
+
+	&__list {
+		flex-wrap: wrap;
+		gap: 57px;
+		justify-content: center;
+	}
+
+	h3 {
+		font-size: 46px;
+		font-weight: 600;
+	}
+
+	p {
+		color: #7F7D7D;
+		font-size: 24px;
+		font-weight: 300;
+	}
+}
