@@ -1,7 +1,7 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
 .recipes {
-	margin-top: 100px;
+	margin-top: 15px;
 
 	&__title {
 		margin-bottom: 70px;
@@ -12,9 +12,11 @@
 	}
 
 	&__list {
-		flex-wrap: wrap;
-		gap: 57px;
-		justify-content: center;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+		gap: 10px;
+		place-items: center;
+		align-items: stretch;
 	}
 
 	h3 {

@@ -1,11 +1,19 @@
 import './mainStyle.scss';
-import Recipes from '../recapes/Recapies';
+import { useParams } from "react-router-dom";
+import  Recipes  from '../recapes/Recapies';
+import Header from '../header/Header';
+import Landing from '../lading/Landing';
+import  Search  from '../search/Search';
 
 const Main=()=>{
+    let {id}=useParams();
     return(
-        <div className="container-fluid">
+        <>
+            <Header/>
+            {!id&&<Landing/>}
+            <Search/>
             <Recipes/>
-        </div>
+        </>
     )
 }
 
