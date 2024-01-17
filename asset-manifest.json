@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Receptai-react/static/css/main.f1a0186e.css",
+    "main.js": "/Receptai-react/static/js/main.4502563a.js",
+    "static/media/Landing_image.png": "/Receptai-react/static/media/Landing_image.b700173cbe7b1f1b1aa6.png",
+    "static/media/stat.svg": "/Receptai-react/static/media/stat.fdaca57f6b7014c6eea5d5ab9e076c75.svg",
+    "static/media/user.svg": "/Receptai-react/static/media/user.01261cfbf8f0fb353900cc42353f6f59.svg",
+    "static/media/clock.svg": "/Receptai-react/static/media/clock.8df50f61d35b41f8867af136007c800c.svg",
+    "index.html": "/Receptai-react/index.html",
+    "main.f1a0186e.css.map": "/Receptai-react/static/css/main.f1a0186e.css.map",
+    "main.4502563a.js.map": "/Receptai-react/static/js/main.4502563a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1a0186e.css",
+    "static/js/main.4502563a.js"
+  ]
+}
